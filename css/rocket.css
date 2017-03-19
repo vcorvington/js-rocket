@@ -17,9 +17,9 @@
 }
 
 .ground{
-	background-color: green;
+	background: url('../img/ground.png') no-repeat center center;
 	position: absolute;
-	bottom: 0;
+	bottom: 40px;
 	left: 0;
 	width: 100%;
 	height: 20px;
@@ -28,7 +28,7 @@
 .rocket{
 	position: absolute;
 	left: 50%;
-	bottom: 0px;
+	bottom: 35px;
 	width: 175px;
 	height: 302px;
 	margin-left: -71.5px;
