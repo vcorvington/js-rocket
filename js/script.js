@@ -1,4 +1,20 @@
+/*
 setTimeout(function () {
+    window.location = 'rocket.html';
+}, 5000);
+*/
+
+/*
+$(document).ready(function () {
+    // Handler for .ready() called.
+    window.setTimeout(function () {
+        location.href = "rocket.html";
+    }, 2000);
+});
+*/
+
+
+setTimeout(function () { 
 	location.href = 'rocket.html';
 }, 2000);
 
@@ -51,8 +67,9 @@ var car = {
 				this.isTurnedOn = true;
 			} else {
 				this.isTurnedOn = false;
-			}
+		}
 	}
+}
 
 
 	
